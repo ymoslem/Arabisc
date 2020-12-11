@@ -1,5 +1,7 @@
 # Arabisc: Context-Sensitive Neural Spelling Checker
 
+This repository includes the dataset, code, and model of our paper *[Arabisc: Context-Sensitive Neural Spelling Checker](https://www.aclweb.org/anthology/2020.nlptea-1.2)*.
+
 ## Spelling Check Pre-trained Model
 
 We are providing our pre-trained model for testing directly.
@@ -21,7 +23,7 @@ python3 train-dual-input.py <your_dataset_file_name.txt>
 
 ## Citation
 If you are using or updating our spelling checking approach, Arabisc, please cite our paper, published in NLPTEA, ACCL 2020:
-```
+``` bibtex
 @inproceedings{moslem-etal-2020-arabisc,
     title = "Arabisc: Context-Sensitive Neural Spelling Checker",
     author = "Moslem, Yasmin  and
