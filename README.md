@@ -1,6 +1,10 @@
+[![Arabisc: Context-Sensitive Neural Spelling Checker](https://img.shields.io/badge/youtube-youtu.be%2Fi06Beidzhpo-critical?style=&logo=youtube)](     https://www.youtube.com/watch?v=i06Beidzhpo)
+[![Arabisc: Context-Sensitive Neural Spelling Checker](https://img.shields.io/badge/Paper-anthology%2F2020.nlptea--1.2-lightgrey?style=&logo=read-the-docs)](https://www.aclweb.org/anthology/2020.nlptea-1.2)
+
 # Arabisc: Context-Sensitive Neural Spelling Checker
 
 This repository includes the dataset, code, and model of our paper *[Arabisc: Context-Sensitive Neural Spelling Checker](https://www.aclweb.org/anthology/2020.nlptea-1.2)*.
+
 
 ## Spelling Check Pre-trained Model
 
