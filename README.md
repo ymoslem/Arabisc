@@ -26,7 +26,7 @@ python3 train-dual-input.py <your_dataset_file_name.txt>
 ```
 
 ## Citation
-If you are using or updating our spelling checking approach, Arabisc, please cite our paper, published in NLPTEA, ACCL 2020:
+If you are building on our spelling checking approach, Arabisc, please cite our paper, published in NLPTEA, ACCL 2020:
 ``` bibtex
 @inproceedings{moslem-etal-2020-arabisc,
     title = "Arabisc: Context-Sensitive Neural Spelling Checker",
