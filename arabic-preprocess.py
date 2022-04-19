@@ -2,6 +2,7 @@ import re
 import string
 import sys
 
+
 source = sys.argv[1]
 output = source+".clean"
 
@@ -49,10 +50,9 @@ def remove_punctuation(text):
     return text
 
 
-
+# Start processing the input file
 with open(source) as f:
     text = f.read()
-
 
 # Split on punctuation and remove duplicates
 text = re.split(r'\. |\.\n|\!\n|\؟\n|\n', text)
@@ -72,7 +72,6 @@ with open(output, "w+") as clean:
             segment = "<s> " + segment                        # adding a start token
             if segment[4] in arabic_characters:
                 clean.write(segment + "\n")
-
 
 
 print("Done")
