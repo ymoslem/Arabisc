@@ -27,7 +27,7 @@ model = load_model("model")
 
 print("Building the tokenizer...")
 data_file = "data/News-Multi.ar-en.ar.more.clean"
-data = open(data_file).read()
+data = open(data_file, encoding="utf8").read()
 
 corpus = data.lower().split("\n")
 #print("First sentence in the corpus:", corpus[0])
