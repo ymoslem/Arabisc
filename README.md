@@ -10,7 +10,7 @@ This repository includes the dataset, code, and model of our paper *[Arabisc: Co
 
 We are providing our pre-trained model for testing directly.
 
-1. Download and unzip our spelling model at: [https://arabic-spelling.s3-us-west-2.amazonaws.com/model-spell.zip](https://github.com/ymoslem/Arabisc/releases/download/v1.0/model-spell.zip)
+1. Download and unzip our spelling model at: [https://github.com/ymoslem/Arabisc/releases/download/v1.0/model-spell.zip](https://github.com/ymoslem/Arabisc/releases/download/v1.0/model-spell.zip)
 2. In the `data` folder of the current repository, unzip: **News-Multi.ar-en.ar.more.clean.zip**
 3. Run the file **spelling-checker.py**:
 ```
